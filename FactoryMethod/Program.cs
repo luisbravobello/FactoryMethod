@@ -4,8 +4,6 @@ public interface Inotificacion
 {
     void Enviar(string mensaje);
     
-    
-    
 }
 
 public class NotificacionEmail : Inotificacion
